@@ -1,0 +1,195 @@
+
+    
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    width: 375px;
+    background: cadetblue;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 0 4px black;
+    width: 375px;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+nav .header {
+    background: #fff;
+    box-shadow: 0 0 4px black;
+    width: 375px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 31, 241);
+    margin-left: 10px;
+}
+
+nav .header .img {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+nav .header .img a {
+    background: #cccccc;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 50px;
+}
+
+nav .header .img img {
+    width: 18px;
+    margin: 6px
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+nav .navbar img {
+    width:  25px;
+    transition: 0.5 ease;
+}
+
+nav .navbar img:hover {
+    transform: scale(1.3);
+    filter: blur(0.5px);
+}
+
+
+.status {
+    display: flex;
+    background: #cccccc;
+    box-shadow: 0 0 4px black;
+    z-index: 9;
+    width: 375px;
+    margin-top: 50px;
+    overflow-x: scroll;
+}
+
+.status .content {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status .content .bulat {
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #fff;
+    border: 3px solid ;
+    margin: 0px 15px 0px 0px;
+}
+
+section {
+    background: #fff;
+    box-shadow: black;
+    width: 375px;
+}
+
+section .profil {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 5px 10px;
+}
+
+section .profil .bulat {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid ;
+    margin: 0px 15px 0px 0px;
+}
+
+section .profil h4 {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+section p {
+    margin-top: -25px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+}
+
+section p img {
+    width: 13px;
+    margin-left: 10px;
+}
+
+section .poto {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    
+}
+
+section .comen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: 0 4px 1px #cccccc;
+}
+
+section .comen img {
+    width: 20px;
+    border-radius: 50px;
+    padding: 8px 40px;
+    background: #cccccc;
+    margin-top: 5px;
+}
+
+
+.open {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 30px;
+   display: none;
+   position: fixed;
+   backdrop-filter: blur(5px);
+}
+
+.open img {
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 140px;
+}
+
+.open h1 {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
